@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSort", "SimpleSort\SimpleSort.csproj", "{AC24049E-9AC9-41B4-A8DB-D214DF9CD364}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort", "Sort\Sort.csproj", "{AC24049E-9AC9-41B4-A8DB-D214DF9CD364}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
