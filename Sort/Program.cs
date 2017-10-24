@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleSort
+namespace Sort
 {
     class Program
     {
         static void Main(string[] args)
         {
-            SimpleSort simpleSort = new SimpleSort();
+
             int[] unsortedArray = new int[] { 7, 8, 5, 2, 4, 6, 3 };
             foreach (var item in unsortedArray)
             {
@@ -19,7 +19,14 @@ namespace SimpleSort
 
             Console.WriteLine();
 
-            int[] sortedArray = simpleSort.Sort(unsortedArray);
+            int[] sortedArray = new int[unsortedArray.Length];
+
+            //SimpleSort simpleSort = new SimpleSort();
+            //sortedArray = simpleSort.Sort(unsortedArray);
+
+            InsertionSort insertionSort = new InsertionSort();
+            sortedArray = insertionSort.Sort(unsortedArray);
+
             foreach (var item in sortedArray)
             {
                 Console.Write(item + " ");
