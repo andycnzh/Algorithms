@@ -8,6 +8,17 @@ namespace SimpleSort
 {
     class SimpleSort
     {
+        /// <summary>
+        /// 1. Get a list of unsorted numbers
+        /// 2. Repeat steps 3 through 6 until the unsorted list is empty
+        /// 3.    Compare the unsorted numbers
+        /// 4.    Select the smallest unsorted number
+        /// 5.    Move this number to the sorted list
+        /// 6.    Store a maximum value in the place of the smallest number
+        /// 7. Stop
+        /// </summary>
+        /// <param name="unsortedArray">unsorted int array</param>
+        /// <returns>sorted int array</returns>
         public int[] Sort(int[] unsortedArray)
         {
             int temp;
