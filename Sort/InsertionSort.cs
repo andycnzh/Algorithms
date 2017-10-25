@@ -16,6 +16,11 @@ namespace Sort
         /// 5.    Swap this card to the left until it arrives at the correct sorted position.
         /// 6.    Advance the marker to the right one card
         /// 7. Stop
+        /// 
+        /// Space efficiency: n+1
+        /// Time efficiency: 
+        ///     Comparisons: O(n2)
+        ///     Copies(Swapped is 3 times copies): O(n2)
         /// </summary>
         /// <param name="unsortedArray">unsorted int array</param>
         /// <returns>sorted int array</returns>

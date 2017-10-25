@@ -16,6 +16,11 @@ namespace Sort
         /// 5.    Move this number to the sorted list
         /// 6.    Store a maximum value in the place of the smallest number
         /// 7. Stop
+        /// 
+        /// Space efficiency: 2n
+        /// Time efficiency: 
+        ///     Comparisons: O(n2)
+        ///     Copies(Swapped is 3 times copies): O(n)
         /// </summary>
         /// <param name="unsortedArray">unsorted int array</param>
         /// <returns>sorted int array</returns>

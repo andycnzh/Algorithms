@@ -16,6 +16,11 @@ namespace Sort
         /// 5.     Swap this number with the first number in the unsorted section
         /// 6.     Advance the marker to the right one position
         /// 7. Stop
+        /// 
+        /// Space efficiency: n+1
+        /// Time efficiency: 
+        ///     Comparisons: O(n2)
+        ///     Copies(Swapped is 3 times copies): O(n)
         /// </summary>
         /// <param name="unsortedArray"></param>
         /// <returns></returns>
