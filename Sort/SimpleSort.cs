@@ -19,7 +19,7 @@ namespace Sort
         /// 
         /// Space efficiency: 2n
         /// Time efficiency: 
-        ///     Comparisons: O(n2)
+        ///     Comparisons: O(n^2)
         ///     Copies(Swapped is 3 times copies): O(n)
         /// </summary>
         /// <param name="unsortedArray">unsorted int array</param>

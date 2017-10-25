@@ -19,7 +19,7 @@ namespace Sort
         /// 
         /// Space efficiency: n+1
         /// Time efficiency: 
-        ///     Comparisons: O(n2)
+        ///     Comparisons: O(n^2)
         ///     Copies(Swapped is 3 times copies): O(n)
         /// </summary>
         /// <param name="unsortedArray"></param>
