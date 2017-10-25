@@ -24,8 +24,11 @@ namespace Sort
             //SimpleSort simpleSort = new SimpleSort();
             //sortedArray = simpleSort.Sort(unsortedArray);
 
-            InsertionSort insertionSort = new InsertionSort();
-            sortedArray = insertionSort.Sort(unsortedArray);
+            //InsertionSort insertionSort = new InsertionSort();
+            //sortedArray = insertionSort.Sort(unsortedArray);
+
+            SelectionSort selectionSort = new SelectionSort();
+            sortedArray = selectionSort.Sort(unsortedArray);
 
             foreach (var item in sortedArray)
             {
